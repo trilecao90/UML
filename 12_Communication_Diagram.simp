@@ -1,0 +1,213 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<sim-project version="13.80" multi-file="no" uid="simp155018d4995d4c479c4cc8e2cc122158">
+  <meta>
+    <name>12_Communication_Diagram</name>
+    <authors>Cao Tri Le</authors>
+    <description />
+  </meta>
+  <counters models="1">
+    <entity-names>
+      <counter>
+        <item-type type-id="swimlane" type="Swimlane" />
+        <value>2</value>
+      </counter>
+      <counter>
+        <item-type type="Unknown" />
+        <value>1</value>
+      </counter>
+      <counter>
+        <item-type type-id="lifeline" type="Lifeline" />
+        <value>2</value>
+      </counter>
+      <counter>
+        <item-type type-id="actor" type="Actor" />
+        <value>1</value>
+      </counter>
+    </entity-names>
+    <entity-ids>
+      <counter>
+        <item-type type-id="group" type="Group" />
+        <value>196</value>
+      </counter>
+      <counter>
+        <item-type type-id="swimlane" type="Swimlane" />
+        <value>3</value>
+      </counter>
+      <counter>
+        <item-type type-id="communication-message" type="Message" />
+        <value>4</value>
+      </counter>
+      <counter>
+        <item-type type-id="lifeline" type="Lifeline" />
+        <value>5</value>
+      </counter>
+      <counter>
+        <item-type type-id="actor" type="Actor" />
+        <value>2</value>
+      </counter>
+      <counter>
+        <item-type type-id="class" type="Class" />
+        <value>4</value>
+      </counter>
+      <counter>
+        <item-type type-id="property" type="Property" />
+        <value>4</value>
+      </counter>
+      <counter>
+        <item-type type-id="dependency" type="Dependency" />
+        <value>3</value>
+      </counter>
+      <counter>
+        <item-type type-id="generalization" type="Generalization" />
+        <value>2</value>
+      </counter>
+      <counter>
+        <item-type type-id="universal-connector" type="Universal Connector" />
+        <value>5</value>
+      </counter>
+    </entity-ids>
+    <diagrams>
+      <counter>
+        <type>SoftwareIdeasModeler.Core.Diagrams.UmlDiagrams.UmlCommunicationDiagram</type>
+        <value>1</value>
+      </counter>
+    </diagrams>
+    <fields />
+  </counters>
+  <alias-groups />
+  <management uid="md-30bce8db839f495b96cc96137fb54f50" name="" task-id-sequence="0">
+    <persons>
+      <person id="">
+        <first-name>Cao Tri</first-name>
+        <last-name>Le</last-name>
+        <role />
+        <e-mail>cao.tri.le@continental-corporation.com</e-mail>
+        <phone-number />
+        <description />
+        <color>#00000000</color>
+      </person>
+    </persons>
+    <teams />
+    <sprints />
+    <projects />
+    <modules />
+    <tasks />
+    <to-dos />
+  </management>
+  <glossary id="glsr-7b68f07d4f904b8ea8a4c2530feef4fc" />
+  <types default="UML">
+    <type-sets>
+      <type-set file="UmlTypes.xml" />
+    </type-sets>
+    <custom-types>
+      <parameters />
+      <types>
+        <type id="Class:4e92f108c84949e7a571ed47b19b959e" name="Other Classifier" class-ref="4e92f108c84949e7a571ed47b19b959e" />
+        <type id="Class:8d26de452a31454e8e9925e91ec86ee8" name="Classifier" class-ref="8d26de452a31454e8e9925e91ec86ee8" />
+        <type id="Class:de19c7885fab4ca79d8320a8008720d7" name="OtherClassifier" class-ref="de19c7885fab4ca79d8320a8008720d7" />
+      </types>
+    </custom-types>
+  </types>
+  <items>
+    <item id="8d26de452a31454e8e9925e91ec86ee8" cid="C001" type="class" name="Classifier" creator="" creation-date="11/27/2022 17:35:12" />
+    <item id="b74246f0217042bc9ad485a812fc1990" cid="PROP001" type="property" name="Lifeline" creator="" creation-date="11/27/2022 17:35:12">
+      <structural-feature type="Classifier" type-id="Class:8d26de452a31454e8e9925e91ec86ee8" />
+    </item>
+    <item id="ac9170b7f2af40d29764d27e3443c46b" cid="PROP003" type="property" name="Lifeline" creator="" creation-date="11/27/2022 17:35:59">
+      <structural-feature type="OtherClassifier" type-id="Class:de19c7885fab4ca79d8320a8008720d7" />
+    </item>
+    <item id="2f26dcba716b4db39093457a567bbb67" cid="PROP002" type="property" name="Lifeline" creator="" creation-date="11/27/2022 17:35:39">
+      <structural-feature type="Other Classifier" type-id="Class:4e92f108c84949e7a571ed47b19b959e" />
+    </item>
+    <item id="de19c7885fab4ca79d8320a8008720d7" cid="C003" type="class" name="OtherClassifier" creator="" creation-date="11/27/2022 17:35:59" />
+    <item id="4e92f108c84949e7a571ed47b19b959e" cid="C002" type="class" name="Other Classifier" creator="" creation-date="11/27/2022 17:35:39" />
+  </items>
+  <models>
+    <model id="p0d4a2afb5a5647628ce13871a10f042d_861687442" name="Model1" namespace="" order-index="1">
+      <meta>
+        <authors>
+          <author> </author>
+        </authors>
+        <description />
+        <creation-date>11/27/2022 17:30:42</creation-date>
+        <change-date>01/01/0001 00:00:00</change-date>
+        <revision-count>0</revision-count>
+        <version />
+      </meta>
+      <abstract-items />
+      <sub-models />
+      <diagram type="uml-communication" id="p1a80124551124f888378e29005c28f90_987215504" name="CommunicationDiagram1" order-index="1" uid="" auto-routed-paths="false" default-line-style="default" view-location="0,-180">
+        <style>
+          <background-color index="1" color="#FFFFFFFF" />
+          <background-color index="2" color="#FFFFFFFF" />
+          <background-type type="solid" />
+        </style>
+        <meta>
+          <authors>
+            <author> </author>
+          </authors>
+          <description />
+          <creation-date>11/27/2022 17:30:42</creation-date>
+          <change-date>11/27/2022 17:41:56</change-date>
+          <revision-count>0</revision-count>
+          <version />
+        </meta>
+        <abstract-items>
+          <item id="di79d133ce78954cdda4177337814671565877" cid="LL004" type="lifeline" name="Lifeline" creator="" creation-date="11/27/2022 17:34:59" visibility="undefined">
+            <lifeline classifier-name="Other Classifier" classifier-ref="2f26dcba716b4db39093457a567bbb67" selector="" is-multi-object="false" />
+          </item>
+          <item id="1caa78af305d488f87c7652abc7152fb" cid="CMSG002" type="communication-message" creator="" creation-date="11/27/2022 17:36:24" from="d9930594880348b89b489893c8123439" to="b0bff569fa9646c191f96d09216154ab">
+            <communication-message from="d9930594880348b89b489893c8123439" to="b0bff569fa9646c191f96d09216154ab">
+              <messages />
+            </communication-message>
+          </item>
+          <item id="b0bff569fa9646c191f96d09216154ab" cid="LL003" type="lifeline" name="Lifeline" creator="" creation-date="11/27/2022 17:34:59">
+            <lifeline classifier-name="Classifier" classifier-ref="b74246f0217042bc9ad485a812fc1990" selector="" is-multi-object="false" />
+          </item>
+          <item id="21e13f5ffae74441b6aaa71ae942468b" cid="CMSG003" type="communication-message" creator="" creation-date="11/27/2022 17:36:35" from="b0bff569fa9646c191f96d09216154ab" to="di79d133ce78954cdda4177337814671565877">
+            <communication-message from="b0bff569fa9646c191f96d09216154ab" to="di79d133ce78954cdda4177337814671565877">
+              <messages />
+            </communication-message>
+          </item>
+          <item id="d9930594880348b89b489893c8123439" cid="AC001" type="actor" name="Actor1" creator="" creation-date="11/27/2022 17:34:49" />
+        </abstract-items>
+        <layer id="7641943f15df47f7abb0a64de7b4c001" name="Default" visible="true" enabled="true" locked="false">
+          <item id="d9930594880348b89b489893c8123439" iid="4ca4d861a08f48b091d42d43b59b3827" creation-date="11/27/2022 17:34:49" order-index="0" type="entity">
+            <layout name-position="0,10" name-anchor="bottom" auto-anchor="true" label-attached="false" ax="273" ay="164" awidth="50" aheight="100" x="273" y="164" width="50" height="120" />
+            <actor />
+          </item>
+          <item id="b0bff569fa9646c191f96d09216154ab" iid="5711e8d087df4dfaa2571650f4e660ec" creation-date="11/27/2022 17:34:59" order-index="1" type="lifeline">
+            <layout line-disabled="true" ax="620" ay="183" awidth="140" aheight="60" x="620" y="183" width="140" height="60" expanded="620,183,140,60" collapsed="0,0,0,0" container-layout="simple">
+              <container-layout padding="10,10,10,10" />
+            </layout>
+          </item>
+          <item id="di79d133ce78954cdda4177337814671565877" iid="c153efb3aa6f4406be103131c4878a14" creation-date="11/27/2022 17:34:59" order-index="1" type="lifeline">
+            <layout line-disabled="true" ax="620" ay="7" awidth="140" aheight="60" x="620" y="7" width="140" height="60" expanded="620,7,140,60" collapsed="0,0,0,0" container-layout="simple">
+              <container-layout padding="10,10,10,10" />
+            </layout>
+          </item>
+          <item id="1caa78af305d488f87c7652abc7152fb" iid="a2e33cc9c27247e5ba6a8eb5365ef2ca" creation-date="11/27/2022 17:36:24" order-index="2" type="relation">
+            <layout normal-message-position="0,-30" reverse-message-position="0,30" line-style="oblique" lock-to-fields="false" auto-path="" x1="323" y1="214" x2="620" y2="213" start-border-pos="0.374840545654297" end-border-pos="0.87425594329834">
+              <points>
+                <point x="323" y="214" />
+                <point x="620" y="213" />
+              </points>
+            </layout>
+            <relation from="d9930594880348b89b489893c8123439" from-iid="4ca4d861a08f48b091d42d43b59b3827" to="b0bff569fa9646c191f96d09216154ab" to-iid="5711e8d087df4dfaa2571650f4e660ec" />
+            <communication-message />
+          </item>
+          <item id="21e13f5ffae74441b6aaa71ae942468b" iid="c8afca9afa31488ab727f5d6142ed4f7" creation-date="11/27/2022 17:36:35" order-index="3" type="relation">
+            <layout normal-message-position="0,-30" reverse-message-position="0,30" line-style="oblique" lock-to-fields="false" auto-path="" x1="690" y1="183" x2="690" y2="67" start-border-pos="0.125" end-border-pos="0.625">
+              <points>
+                <point x="690" y="183" />
+                <point x="690" y="67" />
+              </points>
+            </layout>
+            <relation from="b0bff569fa9646c191f96d09216154ab" from-iid="5711e8d087df4dfaa2571650f4e660ec" to="di79d133ce78954cdda4177337814671565877" to-iid="c153efb3aa6f4406be103131c4878a14" />
+            <communication-message />
+          </item>
+        </layer>
+      </diagram>
+    </model>
+  </models>
+</sim-project>
