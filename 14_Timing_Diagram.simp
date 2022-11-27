@@ -1,0 +1,168 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<sim-project version="13.80" multi-file="no" uid="simp94e3a39945274375a84fa1c5e6a3d8de">
+  <meta>
+    <name>14_Timing_Diagram</name>
+    <authors>Cao Tri Le</authors>
+    <description />
+  </meta>
+  <counters models="1">
+    <entity-names>
+      <counter>
+        <item-type type-id="timing-frame" type="Timing Frame" />
+        <value>1</value>
+      </counter>
+      <counter>
+        <item-type type-id="timing-lifeline" type="Timing Lifeline" />
+        <value>7</value>
+      </counter>
+    </entity-names>
+    <entity-ids>
+      <counter>
+        <item-type type-id="group" type="Group" />
+        <value>341</value>
+      </counter>
+      <counter>
+        <item-type type-id="timing-frame" type="Timing Frame" />
+        <value>2</value>
+      </counter>
+      <counter>
+        <item-type type-id="timing-lifeline" type="Timing Lifeline" />
+        <value>9</value>
+      </counter>
+    </entity-ids>
+    <diagrams>
+      <counter>
+        <type>SoftwareIdeasModeler.Core.Diagrams.UmlDiagrams.UmlTimingDiagram</type>
+        <value>1</value>
+      </counter>
+    </diagrams>
+    <fields />
+  </counters>
+  <alias-groups />
+  <management uid="md-d2592978c62c4e65bf37d6ae959ea8c8" name="" task-id-sequence="0">
+    <persons>
+      <person id="">
+        <first-name>Cao Tri</first-name>
+        <last-name>Le</last-name>
+        <role />
+        <e-mail>cao.tri.le@continental-corporation.com</e-mail>
+        <phone-number />
+        <description />
+        <color>#00000000</color>
+      </person>
+    </persons>
+    <teams />
+    <sprints />
+    <projects />
+    <modules />
+    <tasks />
+    <to-dos />
+  </management>
+  <glossary id="glsr-1a842c8640864b7cb68990435439d9c1" />
+  <types default="UML">
+    <type-sets>
+      <type-set file="UmlTypes.xml" />
+    </type-sets>
+    <custom-types>
+      <parameters />
+      <types />
+    </custom-types>
+  </types>
+  <items>
+    <item id="2e1c2253eaf7433b8b0e9407d3bfc548" cid="ELEM008" type="timing-lifeline" name="Value Lifeline" creator="" creation-date="11/27/2022 18:22:11">
+      <states>
+        <state id="umlls-9c9bdc3c-32a2-4c41-b76c-1c73ba312d93" name="State C" index="0" />
+        <state id="umlls-533ed6d5-42e0-4e09-bbbe-eb3dbec60d14" name="State B" index="1" />
+        <state id="umlls-c67e0292-ba31-4be2-af15-8b1693af3aa2" name="State A" index="2" />
+      </states>
+      <events>
+        <event id="umlte-f99b4a36-dc29-4d3a-b23f-9693dad3811c" state="0" duration="2" duration-constraint="" stimulus="" />
+        <event id="umlte-e348486f-e95f-4400-82fc-844ebf1b1786" state="2" duration="2" duration-constraint="" stimulus="" />
+        <event id="umlte-f2f22e10-f430-448c-a905-74fad70b10d2" state="1" duration="3" duration-constraint="" stimulus="" />
+        <event id="umlte-72409083-4ad6-4dba-b48b-f8960c5f3064" state="0" duration="2" duration-constraint="" stimulus="" />
+        <event id="umlte-5a1d1420-9b91-4aeb-9489-851b3d885eb7" state="2" duration="2" duration-constraint="" stimulus="" />
+      </events>
+    </item>
+    <item id="eb220f8e866d44ebbcb655c7e4eaf753" cid="ELEM001" type="timing-lifeline" name="State Lifeline" creator="" creation-date="11/27/2022 18:07:07">
+      <states>
+        <state id="umlls-b6495e7f-3dc3-4ec0-8b78-21f823abef32" name="State C" index="0" />
+        <state id="umlls-df0a0805-54ea-4f2f-bce2-c3106b28252d" name="State B" index="1" />
+        <state id="umlls-4fc17b0f-8d3e-4afc-b360-7d0c9f5f0099" name="State A" index="2" />
+      </states>
+      <events>
+        <event id="umlte-d50b54c9-f0f5-4fe7-bb9d-0055c01e0727" state="0" duration="2" duration-constraint="" stimulus="" />
+        <event id="umlte-ef9ab418-ba18-4d39-b9be-3fd187e989bf" state="2" duration="2" duration-constraint="" stimulus="" />
+        <event id="umlte-590b89f5-9cfa-4ece-8391-9a2cbec857a3" state="1" duration="3" duration-constraint="" stimulus="" />
+        <event id="umlte-ebe1c39f-58ab-4743-9bdd-625fbed3351f" state="0" duration="2" duration-constraint="" stimulus="" />
+        <event id="umlte-3ea76653-9f4a-4784-8caa-1c1d18eedd22" state="2" duration="2" duration-constraint="" stimulus="" />
+      </events>
+    </item>
+  </items>
+  <models>
+    <model id="p078d494233d44bd0a208758fd110bee7_701658452" name="Model1" namespace="" order-index="1">
+      <meta>
+        <authors>
+          <author> </author>
+        </authors>
+        <description />
+        <creation-date>11/27/2022 18:06:01</creation-date>
+        <change-date>01/01/0001 00:00:00</change-date>
+        <revision-count>0</revision-count>
+        <version />
+      </meta>
+      <abstract-items />
+      <sub-models />
+      <diagram type="uml-timing" id="p6c6074a77df14856b2dd8a2ee1cf3669_138228745" name="TimingDiagram1" order-index="1" uid="" auto-routed-paths="false" default-line-style="default" view-location="0,90">
+        <style>
+          <background-color index="1" color="#FFFFFFFF" />
+          <background-color index="2" color="#FFFFFFFF" />
+          <background-type type="solid" />
+        </style>
+        <meta>
+          <authors>
+            <author> </author>
+          </authors>
+          <description />
+          <creation-date>11/27/2022 18:06:01</creation-date>
+          <change-date>11/27/2022 18:23:21</change-date>
+          <revision-count>0</revision-count>
+          <version />
+        </meta>
+        <abstract-items>
+          <item id="82b071908d6642dcb873a22ed1b09c4f" cid="TF001" type="timing-frame" name="TimingFrame" creator="" creation-date="11/27/2022 18:06:05">
+            <frame type="sd" />
+            <lifelines>
+              <lifeline ref="eb220f8e866d44ebbcb655c7e4eaf753" />
+              <lifeline ref="fe83c56826904b5680ba1adde1385ced" />
+              <lifeline ref="2e1c2253eaf7433b8b0e9407d3bfc548" />
+            </lifelines>
+            <tick-mark-values>
+              <tick-mark-value id="umltmv-524c4a52-0484-4928-b5c0-84f3aa380f14" label="0s" position="0" />
+              <tick-mark-value id="umltmv-3e665af6-674a-4159-b88c-8d92c64e51fb" label="" position="0.1" />
+              <tick-mark-value id="umltmv-542afed7-06c7-41f0-9903-7d6ac1cc2258" label="0.5s" position="0.2" />
+              <tick-mark-value id="umltmv-3480c83f-ebbd-4d39-8b58-936404f819bb" label="" position="0.3" />
+              <tick-mark-value id="umltmv-94bce308-b47e-4c62-ab8e-e762d3363eb1" label="1s" position="0.4" />
+              <tick-mark-value id="umltmv-d5b6610b-b6a9-40d0-9218-928f75dedac2" label="" position="0.5" />
+              <tick-mark-value id="umltmv-764d0b05-170f-456e-ac0e-4bfa72e5903c" label="" position="0.6" />
+              <tick-mark-value id="umltmv-8bbea0a0-3227-4523-a558-3bdee75ec023" label="" position="0.7" />
+              <tick-mark-value id="umltmv-8c54ffe2-a574-4a27-ad23-736f036b816a" label="2s" position="0.8" />
+              <tick-mark-value id="umltmv-b9de63be-4854-4bc4-8ceb-099a1d38940a" label="" position="0.9" />
+              <tick-mark-value id="umltmv-f14b2fd8-2ccf-40cf-b0cd-494eba65cdac" label="" position="1" />
+            </tick-mark-values>
+          </item>
+        </abstract-items>
+        <layer id="c8aa4495aab74dbaabe6c40307defab2" name="Default" visible="true" enabled="true" locked="false">
+          <item id="82b071908d6642dcb873a22ed1b09c4f" iid="19cb0e3630934be08c0fd3a3868475c8" creation-date="11/27/2022 18:06:05" order-index="0" type="entity">
+            <layout ax="354" ay="110" awidth="1187" aheight="640" x="354" y="110" width="1183" height="636" expanded="354,110,1187,640" collapsed="0,0,0,0" rotation-center="-441.5,-218" />
+          </item>
+          <item id="eb220f8e866d44ebbcb655c7e4eaf753" iid="9d4c50bb1376430c8dd326c139f13983" container="82b071908d6642dcb873a22ed1b09c4f" container-iid="19cb0e3630934be08c0fd3a3868475c8" creation-date="11/27/2022 18:07:07" order-index="1" type="state-lifeline">
+            <layout ax="354" ay="145.8262" awidth="1187" aheight="284.1738" x="354" y="110" width="1183" height="284.1738" rotation-center="-947.5,-287.9131" />
+          </item>
+          <item id="2e1c2253eaf7433b8b0e9407d3bfc548" iid="653464d60295433498f7da8b4606d7cf" container="82b071908d6642dcb873a22ed1b09c4f" container-iid="19cb0e3630934be08c0fd3a3868475c8" creation-date="11/27/2022 18:22:11" order-index="2" type="value-lifeline">
+            <layout ax="354" ay="430" awidth="1187" aheight="320" x="354" y="630" width="1187" height="120" rotation-center="-947.5,-590" />
+          </item>
+        </layer>
+      </diagram>
+    </model>
+  </models>
+</sim-project>
